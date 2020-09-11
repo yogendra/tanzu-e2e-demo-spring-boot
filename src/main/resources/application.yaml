@@ -1,0 +1,13 @@
+---
+spring:
+  data:
+    rest:
+      base-path: /api
+management:
+  metrics:
+    export:
+      wavefront:
+        api-token: eb45a322-3406-4760-b80f-220fd1c55e45
+        uri: https://wavefront.surf
+---
+
